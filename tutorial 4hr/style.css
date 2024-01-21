@@ -1,0 +1,25 @@
+#box1{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    font-size:1 em;
+}
+#box2 {
+    /* height:50px; */
+    /* width:50px; */
+    /* width:30%; */
+    /* font-size:2em; */
+    /* for text we use em */
+    /* width:100%; with respect to parent element */
+background-color:green;
+/* width:5em; */
+/* as it's depend on em sometimes will depend on parent or sometimes depends on where  on individual class with respect to font size*/
+/* width:5 rem ; */
+/* width:5 vh; */
+height:200 vh; 
+margin-left:10%;
+/* width: 1 vw; */
+ /* compared to body tags  */
+  /* height:50px;
+ width:100%;  */
+}

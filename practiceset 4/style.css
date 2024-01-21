@@ -25,6 +25,8 @@ footer {
     /* color:white; */
     text-decoration:none;
     border:5px  solid whitesmoke;
+    height:50px;
+    font-size:30px;
 
 }
 button{
@@ -35,7 +37,7 @@ a {
    text-decoration:none;
    margin-right:200px;
    display:inline-block;
-   font-size:10px;
+   font-size:20px;
 }
 /* 1. inline takes only the space required by element
 2.block  takes full space within width 

@@ -1,0 +1,49 @@
+div {
+    height:100px;
+    width:100px;
+    background-color:pink;
+    border:2px solid black;
+    margin-bottom:20px;
+    display: inline-block;
+
+}
+
+#box1 {
+position: static;
+ background-color: red;
+/* we cannot use z index in static*/ 
+}
+#box2 {
+position: relative;
+top:20px;
+left:50px;
+background-color: pink;
+/* z-index:; */
+/* z-index:10px; */
+}
+#box3 {
+position:absolute;
+/* from body with respect to a page an interface fom body */
+/* top:20px; */
+bottom:50px;
+background-color: blueviolet;
+
+}
+#box4{
+position:sticky;
+top:10px;
+background-color: green;
+background-image:url("cat.jpg");
+background-size:cover;
+/* cover/auto/contain */
+/* z-index:-1;  when its overlapping +ve --> its on , in -ve ts below*/
+/* when time will come t will turn to sticky */
+}
+#box5{
+    position:fixed;
+    background-color: yellowgreen;
+    top:500px;
+    right: 100px;
+    /* for navigation for top and bottom headers */
+
+    }
