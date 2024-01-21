@@ -1,0 +1,32 @@
+* {
+    background-color:beige;
+
+}
+/* universal selector */
+
+h1 {
+    color:pink;
+}
+/* element selector */
+#p1 {
+color:aquamarine;
+}
+/* unique  id */
+.p2{
+color:yellowgreen;
+}
+/* but for transversing in other class members  */
+p{
+    color: purple;
+}
+button{
+    color: green;
+}
+button {
+    background-color: pink;
+}
+body {
+    background-color: yellow;
+}
+/* we also have rgb color statements */ 
+/* rgb(255,00) color:#ff0000  hexa decimal*/

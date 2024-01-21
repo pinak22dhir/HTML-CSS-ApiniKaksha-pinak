@@ -1,0 +1,39 @@
+/* div {
+    display:block;
+    /* inline for one line , block for specific height and width */
+    /* background-color:pink; you should mention in different div the properties*/
+/* }
+div {
+    height:100px;
+    background-color:pink;
+    width:100px;
+    /* border-width:20px;
+    border-style:dotted;
+    /* solid  */
+    /* border-color:brown; */
+    /* border: 2px solid brown; */
+    /* border-radius:50%; for circular }*/
+/* div {
+    display:block;
+    /* inline for one line , block for specific height and width */
+    /* background-color:pink; you should mention in different div the properties}*/
+div {
+    height:100px;
+    width:120px;
+    background-color:pink;
+   padding:50px;
+   margin: 200px; 
+   /* padding:1px 2px 3px 4px; */
+    border: 2px solid brown;
+    /* for border radius width nd height should be given */
+    /* margin  for space between 2 contents,padding is for internal container use */
+   border-radius:15px;  
+}
+h1 {
+    width:200px;
+    height:50px;
+    background-color:aquamarine;
+    border-width:2px;
+    border-style:dotted;
+    border-color:black;
+}

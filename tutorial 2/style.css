@@ -1,0 +1,21 @@
+p {
+    text-align: right;
+    line-height:90px;
+    line-height:normal;
+    /* text-decoration:line-through; */
+}
+h1 {
+    text-align: right;
+    text-decoration:overline;
+    /* linethrough  none*/
+}
+.h1 {
+font-weight : bold;
+text-decoration: none;
+/* font-family:arial,roboto */
+font-family:serif;
+font-size: 30px;
+/* cursive serif sanserif monospace arial cursive time new roman  fantasy  */
+/* 100-900 */
+}
+/* 96 px is qual to 1 inch  2.54 cm*/
