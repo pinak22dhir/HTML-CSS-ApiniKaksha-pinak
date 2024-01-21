@@ -1,0 +1,11 @@
+div {
+    height:100px;
+    width:100px;
+    margin:20px;
+    padding:20px;
+    display:inline-block;
+}
+#box1 {
+    visibility:hidden;
+
+}

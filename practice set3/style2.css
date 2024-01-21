@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    /* margin: 25px; */
+    /* padding inline block inline block none */
+}
+#navbar {
+    height:60px;
+    background-color:#0f1111;
+    /* color:white; */
+
+}
+button{
+    background-color:#f08804;
+    color:white;
+    /* display: block; */
+}
+/* div{
+    display:inline;
+} */
+#logo {
+    color:#f08804;
+    font-size: 30px;
+}
+a {
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+}

@@ -1,0 +1,43 @@
+
+* {
+color:white;
+margin: 0px;
+padding: 0px;
+}
+.contentbox {
+  
+height:200px;
+width:100px;
+border:2px solid black;
+display:inline-block;
+}
+#content {
+    height:500px;
+}
+/* giving heigth to content as footer will automatically shifts to lowe part */
+footer {
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+#navbar {
+    background-color:black;
+    /* color:white; */
+    text-decoration:none;
+    border:5px  solid whitesmoke;
+
+}
+button{
+    background-color:#f08804;
+
+}
+a {
+   text-decoration:none;
+   margin-right:200px;
+   display:inline-block;
+   font-size:10px;
+}
+/* 1. inline takes only the space required by element
+2.block  takes full space within width 
+3. inline-block similar to inline but we can set margin and padding 
+4. none */
