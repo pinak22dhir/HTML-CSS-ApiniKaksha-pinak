@@ -1,0 +1,10 @@
+div {
+    height:100px;
+    width:100px;
+    /* background-color:pink; */
+    background-image:url("cat.jpg");
+    background-size:cover;
+    position:relative;
+   right:0px;
+   top:50px;
+}

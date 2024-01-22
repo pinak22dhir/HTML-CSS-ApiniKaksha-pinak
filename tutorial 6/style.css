@@ -1,0 +1,56 @@
+body {
+    text-align:center;
+}
+
+#outer {
+height:600px;
+width:600px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+/* flex-wrap:wrap; */
+/* wrap generates space */
+/* align-items:center;
+align-content:flex-start; */
+/* align-content is for differencing between content and space */
+/* align items does nt work for horizontal axis */
+/* justify content is for shifting box 1 to 5 from left to rigth with same order */
+/* flex direction changes boxes starting and ending from 1 to 5 to 5 to 1 */
+/* main and cross axis it changes its size and tries to fit as content size is small*/
+
+}div {
+    height:50px;
+    width:150px;
+    display:inline-block;
+    border:3px solid black;
+}
+#box1{
+    
+   background-color:pink;
+   /* align-self:flex-end; */
+    
+}
+#box2{
+   
+   background-color:orange;
+   height:100px;
+   flex-grow:1;
+    
+}
+#box3{
+   
+   background-color:red;
+    
+}
+#box4{
+    
+   background-color:grey;
+    
+}
+#box5{
+   
+   background-color:yellow;
+   align-self:flex-start;
+   flex-shrink:0.5;
+    
+}
