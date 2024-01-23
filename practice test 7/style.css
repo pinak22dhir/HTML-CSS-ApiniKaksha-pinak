@@ -1,0 +1,96 @@
+div {
+    height:100px;
+    width:100px;
+    background-color:blue;
+}
+ /* @media (width:300px){
+    div {
+        background-color:yellowgreen;
+    }
+}*/
+/* @media (max-width:800px){ 
+    div {
+        background-color:green;
+    }
+} */
+/* @media (min-width:300px) and (max-width:1000px){
+    div {
+        background-color:red;
+    }
+} */
+@media (min-width:800px) {
+    div {
+        background-color:blueviolet;
+    }
+}
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+} */
+
+/* @media only screen and (max-width: 300px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 1000px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    div {
+        background-color: blueviolet;
+    }
+} */
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+} */
+
+@media only screen and (max-width: 300px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 1000px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    div {
+        background-color: blueviolet;
+    }
+}
+* div {
+    height:100px;
+    width:100px;
+    background-color:blue;
+} */
+/* @media (width:300px){
+    div {
+        background-color:yellowgreen;
+    }
+}
+@media (max-width:300px){
+    div {
+        background-color:green;
+    }
+}
+@media (min-width:300px) and (max-width:1000px){
+    div {
+        background-color:red;
+    }
+}
+@media (min-width:300px) {
+    div {
+        background-color:blueviolet;
+    }
+} */

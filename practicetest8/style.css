@@ -1,0 +1,16 @@
+div {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:10px solid green;
+    border-top:10px solid black;
+    animation:color-animate 1s ease-in-out 0s normal;
+}
+@keyframes color-animate {
+   0% {
+        transform:rotate(0deg);
+    }
+ 100%{
+        transform:rotate(360deg);
+    }
+}
